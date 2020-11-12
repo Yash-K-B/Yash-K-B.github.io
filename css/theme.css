@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lalezar&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    transition: all 0.5s ease-out;
+}
+
+
+/* First lets set a background */
+
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: url('../images/d-theme.jpg');
+    background-position: center center;
+    background-origin: content-box;
+    background-size: cover;
+    z-index: -2;
+}
+
+
+/* Now the same background, but with brightness filters*/
+
+.lightning {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/d-theme.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0;
+    -webkit-filter: brightness(4);
+    filter: brightness(4);
+    -o-filter: brightness(3);
+    -moz-filter: brightness(3);
+    z-index: -1;
+}
+
+
+/*Now just a opacity animation*/
+
+.flashit {
+    -webkit-animation: flash ease-out 7s infinite;
+    animation: flash ease-out 7s infinite;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes flash {
+    from {
+        opacity: 0;
+    }
+    92% {
+        opacity: 0;
+    }
+    93% {
+        opacity: 0.6;
+    }
+    94% {
+        opacity: 0.2;
+    }
+    96% {
+        opacity: 0.9;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes flash {
+    from {
+        opacity: 0;
+    }
+    92% {
+        opacity: 0;
+    }
+    93% {
+        opacity: 0.6;
+    }
+    94% {
+        opacity: 0.2;
+    }
+    96% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.rotating-power-wheel {
+    position: relative;
+    height: 50vh;
+    width: 50vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-size: contain;
+    z-index: -1;
+    /* background-position: 50% 50%; */
+}
+
+.power-wheel {
+    position: relative;
+    margin-top: -25%;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    animation: rotate360 4s linear infinite;
+    -webkit-animation: rotate360 4s linear infinite;
+}
+
+@keyframes rotate360 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*End! is that simple! */
+
+.theme-heading-card-1 {
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    /* padding: 4% 10% 5% 10%;
+    margin-top: 10%; */
+}
+
+.theme-heading-card-2 {
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    padding: 4% 10% 5% 10%;
+    margin-top: 10%;
+}
+
+.theme-heading {
+    width: 100%;
+    height: auto;
+    color: white;
+}
+
+.theme-heading-text {
+    width: 100%;
+    height: auto;
+    margin-top: -5%;
+    color: white;
+    text-align: center;
+    font-size: 5.5em;
+    /* font-family: 'Nosifer', cursive; */
+    font-family: 'fairies';
+    letter-spacing: 5px;
+    margin-bottom: 5%;
+    background: linear-gradient(to bottom, white, white 40%, #d10000 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.theme-heading-tx1 {
+    width: 100%;
+    height: auto;
+    margin-top: -25%;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    /* font-family: 'Nosifer', cursive; */
+    font-family: 'fairies';
+    letter-spacing: 5px;
+    margin-bottom: 5%;
+    background: linear-gradient(to bottom, white, white 40%, #d10000 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+.theme-heading-tx2 {
+    width: 100%;
+    height: auto;
+    margin-top: -25%;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    /* font-family: 'Nosifer', cursive; */
+    font-family: 'fairies';
+    letter-spacing: 5px;
+    margin-bottom: 5%;
+    background: linear-gradient(to bottom, white, white 40%, #d10000 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+.theme-heading-tx3 {
+    width: 100%;
+    height: auto;
+    margin-top: -25%;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    /* font-family: 'Nosifer', cursive; */
+    font-family: 'fairies';
+    letter-spacing: 5px;
+    margin-bottom: 5%;
+    background: linear-gradient(to bottom, white, white 40%, #d10000 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+.theme-content {
+    width: 100%;
+    font-size: 1.5em;
+    color: azure;
+    text-align: justify;
+    text-indent: 10%;
+}
+
+.wizard-logo {
+    position: absolute;
+    width: 320px;
+    right: 50px;
+    top: -50%;
+    z-index: -3;
+}
+
+.sidenavbar {
+    position: fixed;
+    height: 100%;
+    min-height: 100vh;
+    width: 300px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 99;
+    top: 0;
+    left: -300px;
+    transition: all 0.5s ease-out;
+}
+
+.sidenavbar ul {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.sidenavbar li {
+    display: block;
+    /* border-top: 1px solid rgb(0, 4, 235);
+    border-bottom: 1px solid rgb(130, 130, 255); */
+}
+
+.sidenavbar li a {
+    display: block;
+    padding: 15px 10px 15px 60px;
+    text-decoration: none;
+    font-family: 'Lalezar', cursive;
+    font-size: 1.5em;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.sidenavbar li:hover a {
+    background: rgba(255, 0, 0, 0.7);
+    margin-left: 30px;
+}
+
+.fa-icon {
+    margin-right: 10px;
+}
+
+
+/* ------------------------ TIMELINE ---------------------------------------*/
+
+
+/* The actual timeline (the vertical ruler) */
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* The actual timeline (the vertical ruler) */
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+
+/* Container around content */
+
+.t-container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+
+/* The circles on the timeline */
+
+.t-container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+/* Place the container to the left */
+
+.left {
+    left: 0;
+}
+
+
+/* Place the container to the right */
+
+.right {
+    left: 50%;
+}
+
+
+/* Add arrows to the left container (pointing right) */
+
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+
+/* Add arrows to the right container (pointing left) */
+
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+
+/* Fix the circle for containers on the right side */
+
+.right::after {
+    left: -16px;
+}
+
+
+/* The actual content */
+
+.t-content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+
+@media screen and (max-width: 600px) {
+    .wizard-logo {
+        display: none;
+    }
+    .rotating-power-wheel {
+        width: 70vw;
+        height: 70vw;
+    }
+    .theme-heading-card-2 {
+        padding: 4% 0 5% 0;
+        width: 95%;
+    }
+    .theme-heading {
+        font-size: 1.5em;
+    }
+    .theme-heading-text {
+        display: none;
+    }
+    .theme-heading-tx1 {
+        text-align: left;
+        display: inline-block;
+    }
+    .theme-heading-tx3 {
+        text-align: right;
+        display: inline-block;
+    }
+    .theme-heading-tx2 {
+        display: inline-block;
+    }
+    .theme-content {
+        font-size: 1em;
+    }
+    .t-container::after {
+        height: 15px;
+        width: 15px;
+    }
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 27.5px;
+        width: 3px;
+    }
+    /* Full-width containers */
+    .t-container {
+        width: 100%;
+        padding-left: 60px;
+        padding-right: 25px;
+    }
+    /* Make sure that all arrows are pointing leftwards */
+    .t-container::before {
+        left: 50px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+    /* Make sure all circles are at the same spot */
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+    /* Make all right containers behave like the left ones */
+    .right {
+        left: 0%;
+    }
+}

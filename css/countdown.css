@@ -1,0 +1,81 @@
+/* See Setting for included CSS */
+
+/* 
+
+README: 
+---
+In a hurry? Click Countdown 5 times to see final animation.  There is an audible 10 second countdown too, but you'll just have to trust me on that one ;) 
+
+Audio does not work on iOS Safari.
+
+*/
+.message-s{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-size: 4em;
+    color: white;
+    display: block;
+    z-index: 0;
+    font-family: 'Great Vibes', cursive;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 2em;
+    line-height: 200px;
+    text-align: center;
+}
+.flip-clock-divider .flip-clock-label{
+    color: #b7b7b7;
+}
+
+@media screen and (max-width: 700px)
+{
+    .message-s{
+    font-size: 3em;
+    }
+    
+.flip-clock-wrapper {
+    width: 90%;
+}
+.flip-clock-wrapper ul{
+    width:30px;
+    height: 35px;
+}
+.flip-clock-divider{
+    height: 50px;
+    width:10px;
+}
+.flip-clock-wrapper ul li{
+    line-height: 40px;
+}
+.flip-clock-wrapper ul li a div div.inn{
+    font-size: 25px;
+}
+/* .flip-clock-divider.minutes .flip-clock-label{
+    right: -20px;
+} */
+.flip-clock-dot {
+    left: 0;
+    height: 7px;
+    width: 7px;
+}
+ .flip-clock-divider .flip-clock-label{
+   right: -60px;
+} 
+.flip-clock-divider.minutes .flip-clock-label{
+    right: -60px;
+}
+.flip-clock-divider.seconds .flip-clock-label
+{
+    right: -60px;
+}
+
+}
+@media screen and (max-width:360px)
+{
+    .flip-clock-wrapper {
+    width: 100%;
+}
+}

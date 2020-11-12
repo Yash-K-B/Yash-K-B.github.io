@@ -2,3 +2,33 @@
     font-family: 'font1';
     src: url('fonts/font1.ttf');
 }
+
+@font-face {
+    font-family: 'Audrey';
+    src: url('fonts/Audrey-Medium.otf');
+}
+
+@font-face {
+    font-family: 'zefani';
+    src: url('fonts/Zefani_Uppercase_Demo-Regular.otf');
+}
+
+@font-face {
+    font-family: 'product sans';
+    src: url('fonts/Product\ Sans\ Regular.ttf');
+}
+
+@font-face {
+    font-family: 'product sans bold';
+    src: url('fonts/Product\ Sans\ Bold.ttf');
+}
+
+@font-face {
+    font-family: 'product sans italic';
+    src: url('fonts/Product\ Sans\ Italic.ttf');
+}
+
+@font-face {
+    font-family: 'fairies';
+    src: url('fonts/FairiesGoneWild.otf');
+}

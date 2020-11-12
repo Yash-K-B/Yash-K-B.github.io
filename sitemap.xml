@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
+<!-- www.check-domains.com sitemap generator -->
+
+<url>
+   <loc>https://www.igittechnovation.co.in/</loc>
+   <lastmod>2020-02-18T05:55:24+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>1.0000</priority>
+</url>
+<url>
+   <loc>https://www.igittechnovation.co.in/index.html</loc>
+   <lastmod>2020-02-18T05:55:24+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://www.igittechnovation.co.in/events.html</loc>
+   <lastmod>2020-02-18T05:55:24+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://www.igittechnovation.co.in/gallery.html</loc>
+   <lastmod>2020-02-18T05:55:24+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://www.igittechnovation.co.in/sponsor.html</loc>
+   <lastmod>2020-02-18T05:55:24+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://www.igittechnovation.co.in/contactus.html</loc>
+   <lastmod>2020-02-18T05:55:24+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://www.igittechnovation.co.in/index-fut.html</loc>
+   <lastmod>2020-02-18T05:55:24+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://www.igittechnovation.co.in/media/Brochure_Technovation_2020.pdf</loc>
+   <lastmod>2020-02-18T12:31:53+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+</urlset>
